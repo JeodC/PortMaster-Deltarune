@@ -19,7 +19,7 @@ get_controls
 GAMEDIR="/$directory/ports/deltarune"
 
 # Exports
-export LD_LIBRARY_PATH="/usr/lib32:$GAMEDIR/libs32:$GAMEDIR/libs":$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH="/usr/lib32:$GAMEDIR/libs32":$LD_LIBRARY_PATH
 export PATCHER_FILE="$GAMEDIR/tools/patchscript"
 export PATCHER_GAME="$(basename "${0%.*}")" # This gets the current script filename without the extension
 export PATCHER_TIME="2 to 5 minutes"
